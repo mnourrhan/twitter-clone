@@ -13,6 +13,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get static_pages_home_url
     assert_response :success
+    # "#{}" just for putting the result as string -> called Interpolation
     assert_select "title", "Home | #{@base_title}"
   end
 
