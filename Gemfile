@@ -5,10 +5,12 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
-
+# bootstrap
 gem 'bootstrap-sass', '3.4.1'
-
+# rails testing controller
 gem 'rails-controller-testing'
+# bcrypt for password hash
+gem 'bcrypt'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
