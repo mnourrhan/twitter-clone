@@ -1,0 +1,14 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <!-- link_to is helper method to create links -->
+      <!-- link_to method takes 3 argument (name, link and optional id) -->
+      <%= link_to "sample app", root_path, id: "logo" %>
+      <nav>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Home",   root_path %></li>
+          <li><%= link_to "Help",   help_path %></li>
+          <li><%= link_to "Log in", '#' %></li>
+        </ul>
+      </nav>
+    </div>
+</header>
