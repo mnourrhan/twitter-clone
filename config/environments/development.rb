@@ -56,9 +56,7 @@ Rails.application.configure do
   # Allow connections to local server.
   config.hosts.clear
 
-  # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  config.force_ssl = true
-  
+  config.force_ssl = false
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
 
