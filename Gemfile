@@ -11,10 +11,11 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'rails-controller-testing'
 # bcrypt for password hash
 gem 'bcrypt'
-# Data pagination 
+# Data pagination
 gem 'will_paginate',           '3.1.8'
 gem 'bootstrap-will_paginate', '1.0.0'
 
+gem 'sendgrid-ruby'
 # Creating users (seeder)
 gem 'faker', '2.1.2'
 # Use Puma as the app server
