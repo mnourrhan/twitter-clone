@@ -1,6 +1,6 @@
 class User < ApplicationRecord
 
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :activation_digest
 
   # callback method before saving user
   before_save :downcase_email
