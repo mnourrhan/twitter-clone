@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
         message = "Account not activated"
         message += "Check your email for the activation link"
         flash[:warning] = message
-        redirected_to root_url
+        redirect_to root_url
       end
     else
       # now used to render the flash message only in the current page
