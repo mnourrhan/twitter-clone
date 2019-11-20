@@ -12,7 +12,8 @@ All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
 is available jointly under the MIT License and the Beerware License. See
 [LICENSE.md](LICENSE.md) for details.
 
-## You can check this project on https://sample-nourhan.herokuapp.com/
+## You can check this project from
+https://sample-nourhan.herokuapp.com/
 
 ## Getting started
 
